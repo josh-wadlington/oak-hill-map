@@ -70,18 +70,17 @@
 
 <body>
 
-	<h1>Oak Hill, VA</h1>
+	<h1>Oak Hill, VA: Home of Jam Packed Suburban Roads</h1>
 
 	<div id='map'></div>
 
 	<section>
 		<h2>about this map</h2>
-		<p>Additional information about <a href="#">the data</a> and map goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis urna magna, maximus nec laoreet sit amet, dictum ultricies nibh. Ut id auctor lacus. Nam a dolor et justo luctus luctus.</p>
+		<p>Piglatin would make far more interesting dummy text.</p>
 
 		<ul>
-			<li>See my projects on GitHub: <a href="https://github.com/newmapsplus">New Maps Plus</a></li>
-			<li>Follow me on twitter: <a href="https://twitter.com/NewMapsPlus">@NewMapsPlus</a></li>
-			<li>Visit my <a href='#'>mapping portfolio</a>.</li>
+			<li>See my projects on GitHub: <a href="https://github.com/josh-wadlington"></a></li>
+
 		</ul>
 	</section>
 
@@ -92,7 +91,7 @@
 		// map options
 		var options = {
 			center: [38.9101838,-77.3956002], // lat/lon values
-			zoom: 12
+			zoom: 14
 		}
 
 		// create a Leaflet map in our division container with id of 'map'
@@ -106,7 +105,7 @@
 		}).addTo(map);
 
 		// write a custom message for the Leaflet tooltip
-		var message = 'Oak Hill is awesome!';
+		var message = 'Oak Hill is almost awesome!';
 
 		// add a marker to the center of the map and open the tooltip
 		L.marker(map.getCenter())
